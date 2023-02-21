@@ -1,0 +1,80 @@
+
+
+.fila-semestre{
+    position: relative;
+    height: 250px;
+    margin: 0px;
+    margin-top: 50px;
+    border-radius: 0px;
+    background-color: black;
+}
+
+header{
+    margin: 0px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: 'Gloock';
+    padding-top: 10px;
+}
+
+button:hover{ 
+    opacity: 60%;
+    color: greenyellow;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.botones{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 70%;
+    height: 150px;
+}
+
+.semestre {
+    font-family: 'Gloock';
+    font-size: 140px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    float: right;
+    padding-top: 10px;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    margin-top: 20px;
+}
+
+.semestre:hover{
+    opacity: 60%;
+}
+
+button{
+    background-color: transparent;
+    border: 1px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Gloock';
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+
+body{
+    background-color: black;
+    margin: 0px;
+}
